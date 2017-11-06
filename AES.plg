@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AES - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x404 /fo"Debug/AES.res" /d "_DEBUG" /d "_AFXDLL" "D:\AES\AES.rc"" 
+Creating temporary file "C:\DOCUME~1\SKY\LOCALS~1\Temp\RSP90.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/AES.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\AES\AES.cpp"
+"D:\AES\AESDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SKY\LOCALS~1\Temp\RSP90.tmp" 
+Creating temporary file "C:\DOCUME~1\SKY\LOCALS~1\Temp\RSP91.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/AES.pdb" /debug /machine:I386 /out:"Debug/AES.exe" /pdbtype:sept 
+.\Debug\AES.obj
+.\Debug\AESDlg.obj
+.\Debug\DoubleBuffering.obj
+.\Debug\Method.obj
+.\Debug\Rijndael.obj
+.\Debug\SHA.OBJ
+.\Debug\StdAfx.obj
+.\Debug\AES.res
+]
+Creating command line "link.exe @C:\DOCUME~1\SKY\LOCALS~1\Temp\RSP91.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+AESDlg.cpp
+d:\aes\aesdlg.cpp(4) : warning C4652: compiler option 'Generate Browser Info' inconsistent with precompiled header; current command-line option will override that defined in the precompiled header
+D:\AES\AESDlg.cpp(183) : warning C4129: 'K' : unrecognized character escape sequence
+D:\AES\AESDlg.cpp(183) : warning C4129: 'C' : unrecognized character escape sequence
+D:\AES\AESDlg.cpp(192) : warning C4129: 'R' : unrecognized character escape sequence
+Generating Code...
+Compiling...
+AES.cpp
+d:\aes\aes.cpp(4) : warning C4652: compiler option 'Generate Browser Info' inconsistent with precompiled header; current command-line option will override that defined in the precompiled header
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+AES.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>
